@@ -2,6 +2,9 @@
 
 int main(){
     inicializar_banco();
-    buscar(2000);
+    executar_carga_inicial();
+    print("Testando busca\n");
+    buscar_ano(2002);
+    buscar_ano(1931);
     return 0;
 }

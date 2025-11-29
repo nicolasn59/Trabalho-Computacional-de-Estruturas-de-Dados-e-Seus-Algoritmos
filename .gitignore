@@ -1,0 +1,11 @@
+# Ignorar arquivos binários do Windows/Linux
+*.exe
+*.o
+*.bin
+*.dat
+
+# Ignorar os arquivos binários dentro da pasta de dados
+dados/*.bin
+
+# Ignorar arquivos temporários do VS Code ou IDEs
+.vscode/
